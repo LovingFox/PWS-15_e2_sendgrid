@@ -35,7 +35,7 @@
 <form id="email_form" method="post" action="{% url 'main-view' %}">
   {% csrf_token %}
   {{ form.as_ul }}
-  <input type="submit" value="Найти">
+  <input type="submit" value="Send mail">
 </form>
 
 <p>Emails stat</p>
