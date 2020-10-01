@@ -1,7 +1,7 @@
 # PWS-15_e2_sendgrid
 
 ## Доступен в Heroku по адресу:
-https://serene-tor-74520.herokuapp.com/
+https://pacific-refuge-00176.herokuapp.com/
 
 ## Описание и реализация
 Отправляет email с заданными адресатом, текстом и задержкой.
