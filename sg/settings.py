@@ -34,7 +34,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'u1h4bzm+cdovkpv^&!z$3*7l&p5mt$aap+u^_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'pacific-refuge-00176.herokuapp.com']
 
 
 # Application definition
