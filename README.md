@@ -41,6 +41,19 @@ $ pip install -r requirements.txt
 $ python manage.py migrate
 ```
 
+  - создать переменные окружения для работы SendGrid
+```
+### Если у вас Linux:
+$ export SENDGRID_API_KEY=<ключ API>
+$ export SENDGRID_TEMPLATE_ID=<id шаблона письма>
+$ export SENDGRID_FROM=<поле From письма>
+### Если у вас Windows:
+$ setx SENDGRID_API_KEY <ключ API>
+$ setx SENDGRID_TEMPLATE_ID <id шаблона письма>
+$ setx SENDGRID_FROM <поле From письма>
+```
+В шаблоне используются переменные: data.sent_datetime и data.text
+
   - запустить сервер
 ```
 $ python manage.py runserver
